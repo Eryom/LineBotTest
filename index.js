@@ -12,7 +12,7 @@ var options = {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
-    'Authorization': 'Bearer [LineAuthorization]'
+    'Authorization': 'Bearer dVzgL5oF4ct+d+OVvfMHld7lpZ4RiM9TDjN8c91p4UJaXvz7sM0G/Y6OhoZpFXhP6lZjWpe3LUDzTvHiAw1UJ0nVdgHQ39euT6/SqXt85ApSNWqAjjPrxEMvsG8jEohESSyRJdtq+wc7cwHNcUAVPQdB04t89/1O/w1cDnyilFU='
   }
 }
 app.set('port', (process.env.PORT || 5000));
@@ -90,7 +90,7 @@ function parseInput(rplyToken, inputStr) {
   let mainMsg = inputStr.split(msgSplitor);
   let trigger = mainMsg[0];
   console.log(trigger);
-  if (trigger != '李孟儒') return null;
+  if (trigger != '瞎貓') return null;
 
   _isNaN = function(obj) {
     return isNaN(parseInt(obj));
